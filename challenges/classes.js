@@ -35,5 +35,5 @@ class CubeMaker extends CuboidMaker{
     }
 }
 let cube = new CubeMaker(5);
-console.log(cube.volume());
-console.log(cube.surfaceArea());
+console.log(cube.volume());  // 125
+console.log(cube.surfaceArea()); // 50
